@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  gap: 24px;
+
+  @media (max-width: 640px) {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+  }
+}

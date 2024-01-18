@@ -1,0 +1,75 @@
+.transaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px;
+
+  @media (max-width: 640px) {
+    padding: 16px 8px;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    @media (max-width: 640px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__profitIcon {
+    background-color: #F5CC82;
+  }
+
+  &__paymentIcon {
+    background-color: #FDF1DC;
+  }
+
+  &__info {
+    display: flex;
+    gap: 24px;
+    @media (max-width: 640px) {
+      gap: 8px;
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    @media (max-width: 640px) {
+      font-size: 16px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    @media (max-width: 640px) {
+      font-size: 12px;
+    }
+  }
+
+  &__price {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+
+    @media (max-width: 640px) {
+      font-size: 16px;
+    }
+  }
+
+  &__priceProfit {
+    color: #0F9D58;
+  }
+
+  &__pricePayment {
+    color: #4E4C47;
+  }
+}

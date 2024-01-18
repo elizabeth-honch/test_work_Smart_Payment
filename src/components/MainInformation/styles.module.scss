@@ -1,0 +1,9 @@
+.info {
+  &__block {
+    margin-top: 64px;
+
+    @media (max-width: 1200px) {
+      margin-top: 34px;
+    }
+  }
+}

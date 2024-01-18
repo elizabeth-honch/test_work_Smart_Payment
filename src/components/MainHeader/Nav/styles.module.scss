@@ -1,0 +1,47 @@
+.nav {
+  @media (max-width: 640px) {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 992px) {
+      gap: 0;
+    }
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+
+  &__item {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 16px 32px;
+    letter-spacing: 0px;
+    color: #F5CC82;
+    cursor: pointer;
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+      padding: 8px 24px;
+    }
+
+    @media (max-width: 992px) {
+      padding: 4px 15px;
+    }
+  }
+
+  &__activeItem {
+    background: #282828;
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__action {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__filterBtn {
+    padding: 10px 24px;
+    color: #DB9E2F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #DB9E2F;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s all;
+  }
+
+  &__activeFilterBtn {
+    color: #FDFDFD;
+    background-color: #DB9E2F;
+  }
+
+  &__moreBtn {
+    @media (max-width: 640px) {
+      margin: 0 auto;
+      order: 3;
+    }
+  }
+}

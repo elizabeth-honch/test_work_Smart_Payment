@@ -1,0 +1,19 @@
+.darkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F5CC82;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 100px;
+  background-color: #353535;
+  transition: 0.7s all;
+  border: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: #7E6363;
+  }
+}
