@@ -1,6 +1,6 @@
 # Test work Smart Payment
 
-[DEMOLINK](https://elizabeth-honch.github.io/test_work_Smart_Payment/)
+[DEMOLINK](https://elizabeth-honch.github.io/test_work_smart_payment/)
 
 ## Available Scripts
 
