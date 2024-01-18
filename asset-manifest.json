@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test_work_smart_payment/static/css/main.a8b3b56b.css",
+    "main.js": "/test_work_smart_payment/static/js/main.da9d9139.js",
+    "static/media/bg.svg": "/test_work_smart_payment/static/media/bg.9e2af256d1e3bf4c12ed.svg",
+    "static/media/logo.svg": "/test_work_smart_payment/static/media/logo.53ede352e4c09b1882a88f128ebabdfc.svg",
+    "static/media/canadaIcon.svg": "/test_work_smart_payment/static/media/canadaIcon.0dcf955dc6a7ad41fdc611d04442a8ff.svg",
+    "static/media/visaIcon.svg": "/test_work_smart_payment/static/media/visaIcon.19765d4470bd29ddb76b533de53b8d58.svg",
+    "static/media/notification.svg": "/test_work_smart_payment/static/media/notification.d0775b98f5cb2b7d6bd4be8975fca0af.svg",
+    "index.html": "/test_work_smart_payment/index.html",
+    "static/media/plusWalletIcon.svg": "/test_work_smart_payment/static/media/plusWalletIcon.49033b36f397daed8cb84edeeddad121.svg",
+    "static/media/minusWalletIcon.svg": "/test_work_smart_payment/static/media/minusWalletIcon.a3163b19264c5a1018eff667decfab58.svg",
+    "static/media/burgerIcon.svg": "/test_work_smart_payment/static/media/burgerIcon.0769ee36a157e8ae65bc50ae6df990fe.svg",
+    "static/media/plusIcon.svg": "/test_work_smart_payment/static/media/plusIcon.a910d35709e2e3bf2f535ca4048d42b1.svg",
+    "main.a8b3b56b.css.map": "/test_work_smart_payment/static/css/main.a8b3b56b.css.map",
+    "main.da9d9139.js.map": "/test_work_smart_payment/static/js/main.da9d9139.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8b3b56b.css",
+    "static/js/main.da9d9139.js"
+  ]
+}
